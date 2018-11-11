@@ -25,3 +25,5 @@ Once this stored procedure is compiled in your SSMS use the following URL to vie
 `http://localhost:99999/index.html?page_name=helloWorldIBADI` 
 
 Which gives you:
+
+![Image of simple example](https://github.com/SamuelAina/IBADI/blob/master/images/example_ibadi_1.png?raw=true)
