@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Welcome to IBADI
 
-You can use the [editor on GitHub](https://github.com/SamuelAina/IBADI/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Imagine if you could develop an entire web site from within your SSMS (SQL Server Management Studio). No HTML files, no CSS files, no JavaScript files. No ASP, no C# - Just write a bunch of stored procedures and your website is ready. This is the whole idea behind IBADI - Integrated BAckend Development Interface.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Let's just dive in with the classic "hello world" demo.
 
-### Markdown
+```sql
+CREATE PROCEDURE [webpage].[helloWorldIBADI]
+AS
+BEGIN
+ DECLARE @html varchar(max)  
+ SELECT  @html=  
+	'  
+	<div style="background-color: yellow;">
+	<P>Hello World!</P>
+	</div>
+	'
+ SELECT html = [ibadi].[html](@html)     
+END
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SamuelAina/IBADI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Once this stored procedure is compiled in your SSMS use the following URL to view the result.
