@@ -96,9 +96,14 @@ Despite its simplicity, you can write some astonishingly sophisticated web pages
 
 Before you can begin using IBADI with your SQL Server you need to set up your IBADI database and your IBADI website. Fortunately, all the code you need is available in **xxx_to_be_specified_xxx** on GitHub. Go through the following steps to setup these components.
 
-<h2>{{ site.data.samplelist.docs_list_title }}</h2>
-<ul>
-   {% for item in site.data.samplelist.docs %}
-      <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
-   {% endfor %}
-</ul>
+docs_list_title: ACME Documentation
+docs:
+
+- title: Introduction
+  url: introduction.html
+
+- title: Configuration
+  url: configuration.html
+
+- title: Deployment
+  url: deployment.html
