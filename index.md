@@ -1,3 +1,6 @@
+---
+title: Homex
+---
 ## Welcome to IBADI
 
 Imagine if you could develop an entire web site from within your SSMS (SQL Server Management Studio). No HTML files, no CSS files, no JavaScript files. No ASP, no C# - Just write a bunch of stored procedures and your website is ready. This is the whole idea behind IBADI - **I**ntegrated **BA**ckend **D**evelopment **I**nterface.
