@@ -1,5 +1,5 @@
 ---
-title: Homex
+title: Welcome to IBADI
 ---
 ## Welcome to IBADI
 
@@ -96,14 +96,3 @@ Despite its simplicity, you can write some astonishingly sophisticated web pages
 
 Before you can begin using IBADI with your SQL Server you need to set up your IBADI database and your IBADI website. Fortunately, all the code you need is available in **xxx_to_be_specified_xxx** on GitHub. Go through the following steps to setup these components.
 
-docs_list_title: ACME Documentation
-docs:
-
-- title: Introduction
-  url: introduction.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
