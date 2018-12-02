@@ -106,13 +106,19 @@ There are other other options of installing an IBADI server such as adding the f
 ### Option 1 - Using MS Visual Studio.
 1. Download the Web folder from xxherexx to a location on your drive. Open the folder and click on the .SLN file so that it is opened visual studio.
 
+![IBADI Solution on VS](https://github.com/SamuelAina/IBADI/blob/master/images/ibadi_vs_sln.png?raw=true)
+
 2. Edit the connection string in the web.config file by putting the details of your IBADI database.
+![IBADI Solution on VS](https://github.com/SamuelAina/IBADI/blob/master/images/IBADI_web_config.png?raw=true)
+
 
 3. Once you have edited your web.config, run the website by clicking on the green arrow icon.
 
 If all goes well, you should see a blank page and the address bar should contain something that looks like this: http://localhost:57942/index.html to display your webpage add the page name to the end of this link, e.g. http://localhost:57942/index.html?page_name=helloWorldIBADI and that’s it.
 
 You can also use the Visual Studio to publish your IBADI Website to a server by right clicking on the solution and selecting the "Publish Web Site" option on the ensuing menu. Just make sure that edit the connectionString to point to a server database.
+
+Setting up your website is a one-off affair unless of course you want to customize it once you have become more familiar with the whole IBADI concept. Customizations may include adding CSS files to the main web folder. You may also want to add your own JavaScript libraries or add links to external ones.
 
 ### Option 2 – Setting up your IBADI website directly in IIS.
 
@@ -146,3 +152,6 @@ Anyway, once you have completed setting up your IBADI website and your IBADI dat
 2. Go to your database server and open the file in SSMS.
 3. Optionally you may change the name of the database in the script from ibadidb to whatever you want.
 4. Run the SQL script within your SSMS while in the master database.
+
+
+
