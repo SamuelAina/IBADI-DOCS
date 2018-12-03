@@ -88,7 +88,7 @@ Once this stored procedure is compiled in your SSMS use the following URL to vie
 
 Which gives you:
 
-![Image of simple example](https://github.com/SamuelAina/IBADI/blob/master/images/example_ibadi_2.png?raw=true)
+![Image of simple example](https://github.com/SamuelAina/IBADI-DOC/blob/master/images/example_ibadi_2.png?raw=true)
 
 Despite its simplicity, you can write some astonishingly sophisticated web pages with IBADI. It can accommodate all HTML tags including `<script>` and `<style>`. It can also be used with existing frameworks such as jQuery, AngularJS, Kendo UI, Bootstrap, W3CSS etc.
 
@@ -106,10 +106,10 @@ There are other other options of installing an IBADI server such as adding the f
 ### Option 1 - Using MS Visual Studio.
 1. Download the Web folder from xxherexx to a location on your drive. Open the folder and click on the .SLN file so that it is opened visual studio.
 
-![IBADI Solution on VS](https://github.com/SamuelAina/IBADI/blob/master/images/ibadi_vs_sln.png?raw=true)
+![IBADI Solution on VS](https://github.com/SamuelAina/IBADI-DOC/blob/master/images/ibadi_vs_sln.png?raw=true)
 
 2. Edit the connection string in the web.config file by putting the details of your IBADI database.
-![IBADI Solution on VS](https://github.com/SamuelAina/IBADI/blob/master/images/IBADI_web_config.png?raw=true)
+![IBADI Solution on VS](https://github.com/SamuelAina/IBADI-DOC/blob/master/images/IBADI_web_config.png?raw=true)
 
 
 3. Once you have edited your web.config, run the website by clicking on the green arrow icon.
