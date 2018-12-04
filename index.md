@@ -138,7 +138,8 @@ If you select All (unassigned), the Web site is accessible on all interfaces and
 12.	Select the access permissions for the Web site, and then click Next.
 13.	Click Finish.
 
-Once you have set up your website the URL for your IBADI page will be in the following form:  http://www.yourwebname.com/index.html?page_id=yourwebpage
+Once you have set up your website the URL for your IBADI page will be in the following form:  
+`http://www.yourwebname.com/index.html?page_id=yourwebpage`
 There are other options of installing an IBADI server such as adding the folder to an existing website or installing IBADI on azure but I will leave these alone for now.
 Anyway, once you have completed setting up your IBADI website and your IBADI database you can proceed with building your awesome web pages. I will be posting examples on this platform.
 
