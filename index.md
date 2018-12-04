@@ -110,6 +110,8 @@ There are other other options of installing an IBADI server such as adding the f
 
 3. Once you have edited your web.config, run the website by clicking on the green arrow icon.
 
+![Image of Web.config](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/IBADI_web_config.png?raw=true)
+
 If all goes well, you should see a blank page and the address bar should contain something that looks like this: http://localhost:57942/index.html to display your webpage add the page name to the end of this link, e.g. http://localhost:57942/index.html?page_name=helloWorldIBADI and that’s it.
 
 You can also use the Visual Studio to publish your IBADI Website to a server by right clicking on the solution and selecting the "Publish Web Site" option on the ensuing menu. Just make sure that edit the connectionString to point to a server database.
