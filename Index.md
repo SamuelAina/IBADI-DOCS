@@ -88,6 +88,7 @@ Once this stored procedure is compiled in your SSMS use the following URL to vie
 
 Which gives you:
 
+![Image of simple example](https://github.com/SamuelAina/IBADI/blob/master/images/example_ibadi_2.png?raw=true)
 
 Despite its simplicity, you can write some astonishingly sophisticated web pages with IBADI. It can accommodate all HTML tags including `<script>` and `<style>`. It can also be used with existing frameworks such as jQuery, AngularJS, Kendo UI, Bootstrap, W3CSS etc.
 
@@ -145,8 +146,4 @@ Anyway, once you have completed setting up your IBADI website and your IBADI dat
 2. Go to your database server and open the file in SSMS.
 3. Optionally you may change the name of the database in the script from ibadidb to whatever you want.
 4. Run the SQL script within your SSMS while in the master database.
-
- 
-
-
 
