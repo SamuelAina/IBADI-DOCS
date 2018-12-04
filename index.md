@@ -104,7 +104,7 @@ Option 2 – You could set up your IBADI website directly in IIS.
 There are other other options of installing an IBADI server such as adding the folder to an existing website or installing IBADI on azure but I will leave these alone for now and focus on the two above.
 
 ### Option 1 - Using MS Visual Studio.
-1. Download the Web folder from xxherexx to a location on your drive. Open the folder and click on the .SLN file so that it is opened visual studio.
+1. Download the Web folder from https://github.com/SamuelAina/IBADI to a location on your drive. Open the folder and click on the .SLN file so that it is opened visual studio.
 
 2. Edit the connection string in the web.config file by putting the details of your IBADI database.
 
