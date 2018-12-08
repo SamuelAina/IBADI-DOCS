@@ -85,20 +85,12 @@ docs:
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
-<h2>{{ layout.docs_list_title }}</h2>
----
-docs_list_title: ACME Documentation
-docs:
-
-- title: Welcome to IBADI!
-  url: introduction.html
-
-- title: Setting up your IBADI website
-  url: configuration.html
-
-- title: Setting up your IBADI database
-  url: deployment.html
----  	  
+<h2>{{ layout.docs_list_title }}</h2>  
+<ul>
+   {% for item in layout.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
     </div>
     <div class="col-sm-8 text-left"> 
       {{ content }}
