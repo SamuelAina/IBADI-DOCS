@@ -32,7 +32,7 @@ Once this stored procedure is compiled in your SSMS use the following URL to vie
 
 Which gives you:
 
-![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/example_ibadi_2.png?raw=true")
+![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/Simple-example.PNG.png?raw=true")
 
 This is not particularly exciting so let's jazz it up a little bit by adding a styesheet.
 
