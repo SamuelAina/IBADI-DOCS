@@ -1,16 +1,5 @@
 ---
-docs_list_title: ACME Documentation
-docs:
-
-- title: Welcome to IBADI!
-  url: introduction.html
-
-- title: Setting up your IBADI website
-  url: configuration.html
-
-- title: Setting up your IBADI database
-  url: deployment.html
----  
+---
 <!doctype html>
 <!--
   Minimal Mistakes Jekyll Theme 4.14.1 by Michael Rose
@@ -86,11 +75,19 @@ docs:
   <div class="row content">
     <div class="col-sm-2 sidenav">
 <h2>{{ site.data.samplelist.docs_list_title }}</h2>
-<ul>
-   {% for item in site.data.samplelist.docs %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-   {% endfor %}
-</ul>	  
+---
+docs_list_title: ACME Documentation
+docs:
+
+- title: Welcome to IBADI!
+  url: introduction.html
+
+- title: Setting up your IBADI website
+  url: configuration.html
+
+- title: Setting up your IBADI database
+  url: deployment.html
+---  	  
     </div>
     <div class="col-sm-8 text-left"> 
       {{ content }}
