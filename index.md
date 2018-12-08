@@ -88,7 +88,7 @@ Once this stored procedure is compiled in your SSMS use the following URL to vie
 
 Which gives you:
 
-![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/example_ibadi_2.png?raw=true&class="img-fluid")
+![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/example_ibadi_2.png?raw=true")
 
 Despite its simplicity, you can write some astonishingly sophisticated web pages with IBADI. It can accommodate all HTML tags including `<script>` and `<style>`. It can also be used with existing frameworks such as jQuery, AngularJS, Kendo UI, Bootstrap, W3CSS etc.
 
