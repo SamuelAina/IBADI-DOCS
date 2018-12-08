@@ -52,6 +52,12 @@ docs:
       }
       .row.content {height:auto;} 
     }
+    
+	img {
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}	    
   </style>
   </head>
 <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
