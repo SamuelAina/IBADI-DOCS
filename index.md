@@ -20,7 +20,40 @@ BEGIN
    <p>Welcome to IBADI!</p>
 </div>
 </div>
+'
+ SELECT html = [ibadi].[html](@html)     
+END
 
+```
+
+Once this stored procedure is compiled in your SSMS use the following URL to view the result.
+
+`http://localhost:99999/index.html?page_name=helloWorldIBADI` 
+
+Which gives you:
+
+![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/example_ibadi_2.png?raw=true")
+
+This is not particularly exciting so let's jazz it up a little bit by adding a styesheet.
+
+```sql
+ALTER PROCEDURE [webpage].[helloWorldIBADI]
+AS
+BEGIN
+ DECLARE @content varchar(max)
+ SELECT  @content=  
+'  
+<div class="stamp">
+<div class="greet">
+   <p>Hello World!</p>
+   <p>Welcome to IBADI!</p>
+</div>
+</div>
+'
+ DECLARE @style varchar(max)
+
+ SELECT  @style=  
+'
 <style>
 /* Using great stamp styling idea found at https://codepen.io/orhanveli/pen/tbGJL */
 *{margin: 0; padding: 0;}
@@ -77,23 +110,17 @@ body {
 }
 </style>
 '
- SELECT html = [ibadi].[html](@html)     
+
+ DECLARE @html varchar(max)  
+ SELECT  @html = @content + @style
+
+ SELECT  html = [ibadi].[html](@html)     
 END
-
 ```
-
-Once this stored procedure is compiled in your SSMS use the following URL to view the result.
-
-`http://localhost:99999/index.html?page_name=helloWorldIBADI` 
-
-Which gives you:
 
 ![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/example_ibadi_2.png?raw=true")
 
 Despite its simplicity, you can write some astonishingly sophisticated web pages with IBADI. It can accommodate all HTML tags including `<script>` and `<style>`. It can also be used with existing frameworks such as jQuery, AngularJS, Kendo UI, Bootstrap, W3CSS etc.
 
 Before you can begin using IBADI with your SQL Server you need to set up your IBADI database and your IBADI website. Fortunately, all the code you need is available at https://github.com/SamuelAina/IBADI on GitHub. Go through the following steps to setup these components.
- 
-
-
 
