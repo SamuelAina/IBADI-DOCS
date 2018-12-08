@@ -52,12 +52,11 @@ docs:
       }
       .row.content {height:auto;} 
     }
-    
 	img {
 		max-width: 100%;
 		height: auto;
 		width: auto\9; /* ie8 */
-	}	    
+	}	
   </style>
   </head>
 <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -74,7 +73,8 @@ docs:
 <div class="container-fluid text-left">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
-<h2>{{ layout.docs_list_title }}</h2>  
+<h3>{{ layout.docs_list_title }}</h3>
+<h5>(Integrated Backend Development Interface)</h5>  
 <ul class="list-group">
    {% for item in layout.docs %}
       <li class="list-group-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
@@ -92,8 +92,5 @@ docs:
   <p>(c) Samuel Aina 2018</p>
       </footer>
     </div>
-
-
-
   </body>
 </html>
