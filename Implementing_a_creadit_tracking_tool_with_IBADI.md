@@ -6,7 +6,7 @@ title: Implementing a simple credit tracking tool with IBADI
 Our first IBADI project is a simple one-page application for tracking your money in a personal money account. The idea is like maintaining an electronic wallet. You can enter amount as a credit or a debit. With each entry you specify a description and the category of the transaction. The application keeps an overall balance which is displayed at the top of the page.  For audit purposes, you cannot delete any of the entries, however you can enter an equivalent negative amount and categorise that as a reversal.
 Here’s a mock-up of the application:
 
-![](images\credit_tracking_tool_mockup.png)
+![](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/credit_tracking_tool_mockup.png)
 
 Remember that the whole idea of IBADI is to implement the application in the database, with a main stored procedure serving as the webpage. So, basically all your programming will be happening in the database in SSMS. 
 
@@ -289,10 +289,10 @@ The result will be `[{result: "OK"}]`
 
 The final product looks like this on a PC
 
-![](images\credit_tracking_tool_on_PC.png)
+![](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/credit_tracking_tool_on_PC.png)
 
 The final product looks like this on the mobile phone.
 
-![](credit_tracking_tool_on_mobile.png)
+![](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/credit_tracking_tool_on_mobile.png)
 
 
