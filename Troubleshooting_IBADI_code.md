@@ -17,7 +17,7 @@ SELECT  @html=
 As a result of this, care must be taken with the sytax of the code, bearing in mind that the code may contain javascript, HTML, CSS and SQL.
 
 ### First off, mind the single quotes.
-Since the varchar variables in SQL are started and ended with single quotes (e.g. ``SELECT @name='Joe Bloggs'```) if you are to use single quotes anywhere in the variable string you wo=ill have to double it up.  e.g. ```SELECT @name='This id Joe''s tea'```.
+Since the varchar variables in SQL are started and ended with single quotes (e.g. ```SELECT @name='Joe Bloggs'```) if you are to use single quotes anywhere in the variable string you wo=ill have to double it up.  e.g. ```SELECT @name='This id Joe''s tea'```.
 
 In HTML, CSS and JavaScript single quotes and double quotes are often interchangable, e.g. ```<DIV id="item1"></DIV>``` is the same as ```<DIV id='item1'></DIV>```. Where you can avoid it, you could just stick with double quotes throughout. If you still want to use single quotes then it would be something like ```<DIV id=''item1''></DIV>```
 
