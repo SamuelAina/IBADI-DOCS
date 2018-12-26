@@ -109,7 +109,7 @@ To view the oage go to the following URL:
 
 Here is the result. Not spectacular but it shows that it works.
 
-![welcome to IBADI in AdventureWork](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/Welcome_to_IBADI_in_AdventureWorks.png?raw=true)
+![welcome to IBADI in AdventureWork](https://github.com/SamuelAina/IBADI-DOCS/tree/master/images/Welcome_to_IBADI_in_AdventureWorks.PNG?raw=true)
 
 
  
