@@ -66,7 +66,7 @@ To use your Adventureworks database with the IBADI website, you need to add the 
   <appSettings/>
   <connectionStrings>
     <!-- REMEMBER TO CHANGE THIS TO POINT TO YOUR OWN DATABASE!!!-->
-    <add name="WbConnectionString" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Sola\IBADI\IBADI-WEB\AdventureWorksDB\AdventureWorks.mdf;Integrated Security=True" providerName="System.Data.SqlClient"/>   
+    <add name="WbConnectionString" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=YOUR_DRIVE:\YOUR-FOLDER\AdventureWorks.mdf;Integrated Security=True" providerName="System.Data.SqlClient"/>   
   </connectionStrings>
   <system.web>
     <compilation debug="true" targetFramework="4.0">
