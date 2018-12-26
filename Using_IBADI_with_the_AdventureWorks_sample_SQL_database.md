@@ -108,8 +108,9 @@ To view the oage go to the following URL:
 **Remember to replace "localhost:60382" with your own host name (and port number if required)**
 
 Here is the result. Not spectacular but it shows that it works.
+![Welcome_to_IBADI_in_AdventureWorks](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/Welcome_to_IBADI_in_AdventureWorks.PNG?raw=true)
 
-![welcome to IBADI in AdventureWork](https://github.com/SamuelAina/IBADI-DOCS/tree/master/images/Welcome_to_IBADI_in_AdventureWorks.PNG?raw=true)
+
 
 
  
