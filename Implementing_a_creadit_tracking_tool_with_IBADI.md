@@ -290,7 +290,7 @@ The result will be `[{result: "OK"}]`
 The final product looks like this on a PC
 
 ![credit_tracking_tool_on_PC](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/credit_tracking_tool_on_PC.png?raw=true)
-![Welcome_to_IBADI_in_AdventureWorks](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/Welcome_to_IBADI_in_AdventureWorks.PNG?raw=true)
+
 
 The final product looks like this on the mobile phone.
 
