@@ -60,7 +60,7 @@ SELECT  @script =
 ### Don't  use line comments (e.g. ```//This is a comment```)  
 Avoid using line comments //. Use block comments (/* ... */) instead.
 
-Also be sure that all block comments are properly closed and note thst nested block comments don't work.
+Also be sure that all block comments are properly closed and note that nested block comments don't work.
 
 ### Ensure that all brackets are matched
 This would apply to all brackets e.g. (), {}, [] etc which are used as part of function definitions, arrays, etc. This also  applies to CSS code. e.g.
