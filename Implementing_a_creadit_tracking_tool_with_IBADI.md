@@ -223,17 +223,17 @@ BEGIN
    function refreshTable(){
  	  var arr = IB_runProc("usp_get_trans_data",{});
 	  /*
-	  Note that the output from IB_runProc is expected to be an array of datasets(thich temselves are cols by rows arrays)
+	  Note that the output from IB_runProc is expected to be an array of datasets(which themselves are arrays of cols X rows)
 	  e.g. Output containing 3 datasets
 	       [
 	        [{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2},{col1:val3,col2:val3,col3:val3}],
 	        [{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2}],
-			[{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2},{col1:val3,col2:val3,col3:val3},{col1:val4,col2:val4,col3:val4}]
-		   ]
+		[{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2},{col1:val3,col2:val3,col3:val3},{col1:val4,col2:val4,col3:val4}]
+	       ]
       e.g. Output containing a single dataset consisting of a table of one column and a single row.
 	       [[col1:val1]]
 
-	  In this case we are expecting a single table with 7 columns
+	  In this case we are expecting a single table with 7 columns. The important thing to note is that we're only using one element e.g. arr[0]
 	  */
 	  arr = arr[0]; /*Using only the first dataset*/
 
