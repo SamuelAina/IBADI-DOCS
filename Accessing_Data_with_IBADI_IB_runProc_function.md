@@ -53,6 +53,8 @@ Use the following URL to view this new page.
 
 http://localhost:64802/index.html?page_name=Getting%20Data%20with%20IB_runProc_1
 
+...and you will see something like this:
+
 [[{"CountryRegionName":"American Samoa"},{"CountryRegionName":"Australia"},{"CountryRegionName":"Canada"},{"CountryRegionName":"Germany"},{"CountryRegionName":"Micronesia"},{"CountryRegionName":"France"},{"CountryRegionName":"United Kingdom"},{"CountryRegionName":"Marshall Islands"},{"CountryRegionName":"Northern Mariana Islands"},{"CountryRegionName":"Palau"},{"CountryRegionName":"United States"},{"CountryRegionName":"Virgin Islands, U.S."}]]
 
 
@@ -108,12 +110,13 @@ e.g. Output containing 3 datasets
 ```
 
 e.g. Output containing a single dataset consisting of a table of one column and a single row.
-```[[col1:val1]]```
-
+```
+[[col1:val1]]
+```
 
 You would normally use the output from IB_runProc to populate a table, list boxes, combo boxes etc or other actions that require data drom the database to be utilised or displayed. For instance in the credit tracking tool, we had the following:
 
-```
+```javascript
 var arr = IB_runProc("usp_get_trans_data",{});
 arr = arr[0]; /*Using only the first dataset of the output from IB_runProc*/
 
@@ -151,6 +154,7 @@ BEGIN
 	SELECT TotalEmployeeCount  = COUNT(*) FROM HumanResources.Employee
 END
 ```
+
 #### 2. Write the HTML, Javascript for displaying the data on a page.
 ```
 CREATE PROC webpage.[Get Total Employee Count]
@@ -169,6 +173,7 @@ BEGIN
   SELECT html=[ibadi].[html](@html)  
 END
 ```
+
 #### 3. And the result is:
 <img src="https://github.com/SamuelAina/IBADI-DOCS/raw/master/images/example_get_total_count.PNG?raw=true"/>
 
