@@ -34,7 +34,7 @@ create table tb_transaction
 **2. Stored proc** -- usp_get_trans_data -- A stored procedure for fetching data from the table.
 
 ```sql
-ALTER PROC usp_get_trans_data
+CREATE PROC usp_get_trans_data
 AS
 BEGIN
     SELECT 
@@ -60,7 +60,7 @@ END
 **3. Stored proc** -- usp_update_trans – A stored procedure for adding or updating entries in the table.
 
 ```sql
-alter proc usp_update_trans
+create proc usp_update_trans
    @Descrription        varchar(255) 
   ,@Category            varchar(80)
   ,@Credit              money
@@ -188,7 +188,7 @@ BEGIN
 	  return;
 	}
 	var params ={Descrription:creditdesc,Category:creditcategory,Credit:creditAmount,Debit:0};
-	var result = IB_runProc("usp_update_trans",params);
+	IB_runProc("usp_update_trans",params);
 	$("#creditcategory").val("(none)");
 	$("#creditAmount").val("0.00");
 	$("#creditdesc").val("");
@@ -212,7 +212,7 @@ BEGIN
 	}
 
 	var params ={Descrription:debitdesc,Category:debitcategory,Credit:0,Debit:debitAmount};
-	var result = IB_runProc("usp_update_trans",params);
+	IB_runProc("usp_update_trans",params);
 
 	$("#debitcategory").val("(none)");
 	$("#debitAmount").val("0.00");
@@ -222,19 +222,6 @@ BEGIN
 
    function refreshTable(){
  	  var arr = IB_runProc("usp_get_trans_data",{});
-	  /*
-	  Note that the output from IB_runProc is expected to be an array of datasets(which themselves are arrays of cols X rows)
-	  e.g. Output containing 3 datasets
-	       [
-	        [{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2},{col1:val3,col2:val3,col3:val3}],
-	        [{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2}],
-		[{col1:val1,col2:val1,col3:val1},{col1:val2,col2:val2,col3:val2},{col1:val3,col2:val3,col3:val3},{col1:val4,col2:val4,col3:val4}]
-	       ]
-      e.g. Output containing a single dataset consisting of a table of one column and a single row.
-	       [[col1:val1]]
-
-	  In this case we are expecting a single table with 7 columns. The important thing to note is that we're only using one element e.g. arr[0]
-	  */
 	  arr = arr[0]; /*Using only the first dataset*/
 
 	  var tr_str="";  
@@ -261,7 +248,6 @@ BEGIN
 		refreshTable();
 	  });
 </script>
-  
 ' 
  SELECT html = [ibadi].[html](@html)  
 END
