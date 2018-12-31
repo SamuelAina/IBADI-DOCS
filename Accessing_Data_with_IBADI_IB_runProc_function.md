@@ -28,7 +28,7 @@ END
 
 If you run this in your SSMS you get something like this:
 
-<img src="https://github.com/SamuelAina/IBADI-DOCS/raw/master/images/Simple-example.PNG?raw=true%22"/>
+<img src="https://github.com/SamuelAina/IBADI-DOCS/raw/master/images/usp_getcountryregion_data_output.PNG?raw=true%22"/>
 
 
 Now lets run IB_runProc and see what it looks like:
