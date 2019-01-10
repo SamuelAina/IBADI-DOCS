@@ -33,7 +33,9 @@ It used to be:
 		<script>
 		   var result = IB_runProc("ibadi.usp_getTotalEmployeeCount",{});
 		   console.log(result);
-		   $("#dvGetTotalEmployeeCount").append("<span>Total employee count = "+result[0][0].TotalEmployeeCount+"</span>");
+		   $("#dvGetTotalEmployeeCount").append(
+		       "<span>Total employee count = "+result[0][0].TotalEmployeeCount+"</span>"
+		        );
 		</script>
 	  '
 	  SELECT html=[ibadi].[html](@html)  
@@ -55,7 +57,9 @@ With IB_runProc_async it should become:
 				"ibadi.usp_getTotalEmployeeCount"
 			   ,{}
 			   ,function (result) {
-			   $("#dvGetTotalEmployeeCount").append("<span>Total employee count = "+result[0][0].TotalEmployeeCount+"</span>");
+			   $("#dvGetTotalEmployeeCount").append(
+			       "<span>Total employee count = "+result[0][0].TotalEmployeeCount+"</span>"
+			       );
 			  }
 		   ); 	   
 		</script>
