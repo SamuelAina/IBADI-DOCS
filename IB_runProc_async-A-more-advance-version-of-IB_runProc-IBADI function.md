@@ -1,4 +1,4 @@
-##IB_runProc_async - A more advance version of IB_runProc IBADI function
+## IB_runProc_async - A more advance version of IB_runProc IBADI function
 
 There is a downside to running IB_runProc. Everything still works okay but it is not optimal due to the way browsers render content. In majority of the casses, for simple web applications IB_runProc is okay. If you open the console in the developer tool in your browser (F12 for google Chrome and select the console tab) you may find the following warning 
 ```
