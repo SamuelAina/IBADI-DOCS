@@ -3,7 +3,8 @@
 There is a downside to running IB_runProc. Everything still works okay but it is not optimal due to the way browsers render content. In majority of the casses, for simple web applications IB_runProc is okay. If you open the console in the developer tool in your browser (F12 for google Chrome and select the console tab) you may find the following warning 
 ```
 "jquery.min.js:4 [Deprecation] Synchronous XMLHttpRequest on the main thread is deprecated 
-because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/."
+because of its detrimental effects to the end user's experience. 
+For more help, check https://xhr.spec.whatwg.org/."
 ```
 If you want to avoid this warning then you may use IB_runProc_async instead of IB_runProc. But you can't just substitute one for the other in your code. For IB_runProc you can do something like: 
 ```rslt = IB_runProc("procname",{})``` 
