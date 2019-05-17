@@ -44,7 +44,7 @@ This tutorial assumes that you have set up your IBADI database as well as your I
 	END
 ---
 
-####Things to note:
+#### Things to note:
 
 1. We included a <form> tag. This is required in order for the page to post information back to the server
 
@@ -57,7 +57,7 @@ This tutorial assumes that you have set up your IBADI database as well as your I
 5. Finally, note that uploadOKclicked() makes a call to  the IB_doFileUpload function which does all the upload process 
 
 
-###Let me say a bit more about IB_doFileUpload...
+#### Let me say a bit more about IB_doFileUpload...
 
 IB_doFileUpload requires four parameters:
 1. file_upload_input_tag_id - which is simply the id of the file upload <input> tag (i.e. file_upload)
