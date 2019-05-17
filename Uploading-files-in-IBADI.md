@@ -4,7 +4,7 @@ File uploading is something you may often want to do on a web page. A very commo
 
 This tutorial assumes that you have set up your IBADI database as well as your IBADI Web folder.
 
-### OK, Here is the proc:
+### OK, here is the proc:
 ---
 	CREATE PROCEDURE [webpage].[uploadexample]
 	AS
