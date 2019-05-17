@@ -62,7 +62,7 @@ This tutorial assumes that you have set up your IBADI database as well as your I
 IB_doFileUpload requires four parameters:
 1. file_upload_input_tag_id - which is simply the id of the file upload `<input>` tag (i.e. file_upload)
 
-2. upload_progress_tag_id - this is the id for the <progress> tag (i.e. upload_progress). This is required so that IB_doFileUpload can continously upload the process while the file is uploading. 
+2. upload_progress_tag_id - this is the id for the `<progress>` tag (i.e. upload_progress). This is required so that IB_doFileUpload can continously upload the process while the file is uploading. 
 
 3. progress_container_id  - this is the id for the progress container `<div>` (i.e. progress_container)
 
