@@ -1,10 +1,10 @@
 ## Uploading files with IBADI
 
-File uploading is something you may often wand to do on a web page. A very common use case is uploading image files for product catalogues of photo galery. In this demo, I will use the IB_doFileUpload function to construct a page where you upload a file and then display it on the page.
+File uploading is something you may often want to do on a web page. A very common use case is uploading image files for product catalogues or photos into a photo galery. In this demo, I will use the IB_doFileUpload function to construct a page where you upload a file and then display it on the page.
 
-Remember that as usual, all you need is a stored procedure. This assumes that you have set up your IBADI database as well as your IBADI Web folder.
+This tutorial assumes that you have set up your IBADI database as well as your IBADI Web folder.
 
-Here is the proc:
+### OK, Here is the proc:
 ---
 	CREATE PROCEDURE [webpage].[uploadexample]
 	AS
