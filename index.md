@@ -120,7 +120,7 @@ END
 
 ![Image of simple example](https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/example_ibadi_2.png?raw=true")
 
-Despite its simplicity, you can write some astonishingly sophisticated web pages with IBADI. It can accommodate all HTML tags including `<script>` and `<style>`. It can also be used with existing frameworks such as jQuery, AngularJS, Kendo UI, Bootstrap, W3CSS etc.
+Despite its simplicity, you can write some astonishingly sophisticated web pages with IBADI. It can accommodate all HTML tags including `<script>` and `<style>`. It can also be used with existing frameworks such as jQuery, Kendo UI, Bootstrap, W3CSS etc.
 
 Before you can begin using IBADI with your SQL Server you need to set up your IBADI database and your IBADI website. Fortunately, all the code you need is available at https://github.com/SamuelAina/IBADI on GitHub. Go through the following steps to setup these components.
 
