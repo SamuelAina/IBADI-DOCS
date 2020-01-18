@@ -28,12 +28,12 @@ Note that you may need to create a new resource group if you haven’t got one a
 
 If you are creating a new resource group, the name will be required.
  
-<img src="https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/Setting_Up_IBADI_on_Azure_img_2.PNG?raw=1" alt="Setting_Up_IBADI_on_Azure_img_2"/>
+<img src="https://raw.githubusercontent.com/SamuelAina/IBADI-DOCS/master/images/Setting_Up_IBADI_on_Azure_img_3.png?raw=1" alt="Setting_Up_IBADI_on_Azure_img_2"/>
 
 Once you have specified the resource, go on and complete all the other required entries.
 You will see from the screen shots below the values I have used in my own settings.
 
-<img src="https://github.com/SamuelAina/IBADI-DOCS/raw/master/images/Setting_Up_IBADI_on_Azure_img_3.PNG?raw=true%22" alt="Setting_Up_IBADI_on_Azure_img_3"/>
+<img src="https://raw.githubusercontent.com/SamuelAina/IBADI-DOCS/master/images/Setting_Up_IBADI_on_Azure_img_3.pngraw=1" alt="Setting_Up_IBADI_on_Azure_img_3"/>
 <img src="https://github.com/SamuelAina/IBADI-DOCS/raw/master/images/Setting_Up_IBADI_on_Azure_img_4.PNG?raw=true%22" alt="Setting_Up_IBADI_on_Azure_img_4"/>
 
 Review or create your App.
