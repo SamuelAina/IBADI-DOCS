@@ -19,7 +19,7 @@ Go through the steps below to create a Web App in Azure. Here I call it IBADI, b
 
 1.  Select the “New” menu and click on the Web App icon among the list of items that can be created.
 
-<img src="https://github.com/SamuelAina/IBADI-DOCS/raw/master/images/Setting_Up_IBADI_on_Azure_img_1.PNG?raw=true%22" alt="Setting_Up_IBADI_on_Azure_img_1"/>
+<img src="https://github.com/SamuelAina/IBADI-DOCS/blob/master/images/Setting_Up_IBADI_on_Azure_img_1.png?raw=1" alt="Setting_Up_IBADI_on_Azure_img_1"/>
 
 
 2. Provide the necessary responses for the configuration settings requested in the dialog window.
